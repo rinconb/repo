@@ -1,7 +1,7 @@
 <!doctype html>
-									<html lang="es">
-									    <head></head>
-									    <body>
-									        <h1>Incendios en España entre 2004 y 2014</h1>
-									    </body>
-									</html>
+	<html lang="es">
+		<head></head>
+		<body>
+		       <h1>Incendios en España entre 2004 y 2014</h1>
+		</body>
+	</html>
