@@ -1,0 +1,17 @@
+<!doctype html> 
+<html lang="es"> 
+	<head></head> 
+	<body> 
+		<h1>Incendios en España entre 2004 y 2014</h1> 
+		<table border=1 cellpadding=7> 
+			<tr> 
+				<th>Comunidad</th> 
+			</tr> 
+		{% for obj in object_list %} 
+			<tr> 
+				<td>{{ obj['COMUNIDAD'].decode('UTF-8') }}</td> 
+			</tr> 
+		{% endfor %} 
+		</table> 
+	</body> 
+</html>
